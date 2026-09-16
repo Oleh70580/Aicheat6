@@ -1,0 +1,47 @@
+{
+    "name": "root",
+    "metadata": {
+        "timer_format_version": "0.1.0",
+        "start_time_seconds": "1764557375",
+        "python_version": "3.10.11 (tags/v3.10.11:7d4cc5a, Apr  5 2023, 00:38:17) [MSC v.1929 64 bit (AMD64)]",
+        "command_line_arguments": "C:\\MyGames\\Aicheat6\\venv\\Scripts\\mlagents-learn config.yaml --run-id=SuperWallRun --force",
+        "mlagents_version": "1.1.0",
+        "mlagents_envs_version": "1.1.0",
+        "communication_protocol_version": "1.5.0",
+        "pytorch_version": "2.5.1+cu118",
+        "numpy_version": "1.23.5",
+        "end_time_seconds": "1764557386"
+    },
+    "total": 11.080351099997642,
+    "count": 1,
+    "self": 0.003637200003140606,
+    "children": {
+        "run_training.setup": {
+            "total": 0.04701049999857787,
+            "count": 1,
+            "self": 0.04701049999857787
+        },
+        "TrainerController.start_learning": {
+            "total": 11.029703399995924,
+            "count": 1,
+            "self": 0.0002330999996047467,
+            "children": {
+                "TrainerController._reset_env": {
+                    "total": 11.02946159998828,
+                    "count": 1,
+                    "self": 11.02946159998828
+                },
+                "trainer_threads": {
+                    "total": 6.00004568696022e-07,
+                    "count": 1,
+                    "self": 6.00004568696022e-07
+                },
+                "TrainerController._save_models": {
+                    "total": 8.100003469735384e-06,
+                    "count": 1,
+                    "self": 8.100003469735384e-06
+                }
+            }
+        }
+    }
+}
